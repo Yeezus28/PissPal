@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_map"
+        android:title="Map"
+        android:icon="@drawable/map"/>
+    <item
+        android:id="@+id/tab_addtoilet"
+        android:title="Add"
+        android:icon="@drawable/add"/>
+    <item
+        android:id="@+id/tab_review"
+        android:title="Reviews"
+        android:icon="@drawable/writereview"/>
+</menu>

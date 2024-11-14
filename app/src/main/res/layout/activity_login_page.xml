@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPage">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#1A2130"
+      android:gravity="center"
+      android:orientation="vertical"
+      android:textAlignment="center"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:layout_marginBottom="15sp"
+        android:src="@drawable/pisspal_logo_circle" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:paddingBottom="5sp"
+        android:text="Email"
+        android:textColor="#FFFAE6"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/input_email"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/inputs"
+        android:drawableLeft="@drawable/person"
+        android:drawablePadding="5sp"
+        android:ems="10"
+        android:fontFamily="@font/fredoka_one"
+        android:inputType="text"
+        android:padding="10sp"
+        android:textColor="#FFFAE6" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:text="Password"
+        android:textColor="#FFFAE6"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/inputs"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="5sp"
+        android:ems="10"
+        android:fontFamily="@font/fredoka_one"
+        android:inputType="textPassword"
+        android:padding="10sp"
+        android:textColor="#FFFAE6" />
+
+    <TextView
+        android:id="@+id/forgetPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37sp"
+        android:layout_marginTop="5sp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:padding="5sp"
+        android:text="Forgot Password"
+        android:textColor="#FFFAE6"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:textColorLink="#FBA834" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="170sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/fredoka_one"
+        android:padding="15sp"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textColor="#FFFAE6"
+        android:textSize="25sp"
+        app:cornerRadius="15sp" />
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:padding="10sp"
+        android:text="@string/not_a_member_sign_up_here"
+        android:textColor="#FFFAE6"
+        android:textColorLink="#FBA834" />
+
+  </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

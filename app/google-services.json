@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "7625864422",
+    "project_id": "pisspal-33e8e",
+    "storage_bucket": "pisspal-33e8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7625864422:android:5b6fa7e82e4cc5908cb727",
+        "android_client_info": {
+          "package_name": "com.example.pisspal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq1VXBQRSIxK_yroPippOnMIrHGv3G738"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
